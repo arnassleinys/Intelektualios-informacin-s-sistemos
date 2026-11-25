@@ -35,6 +35,9 @@ su žmogaus vertintojo suteiktu įvertinimu (y), siekiant
 nustatyti sistemos tikslumą.
 
 
+
+<br><br>
+
 # Projekto aprašymas kaip vientiso sprendimo (End-to-End)
 
 Kuriama dirbtiniu intelektu paremta automatinio žodinių atsakymų vertinimo sistema apima visą duomenų apdorojimo procesą – nuo žodinio atsakymo garso įrašo pateikimo iki galutinio atsakymo įvertinimo ir grįžtamojo ryšio generavimo.
