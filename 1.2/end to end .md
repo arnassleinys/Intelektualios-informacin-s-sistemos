@@ -33,4 +33,3 @@ analizę, prognozuoja atsakymo įvertinimą (y).
 Sistemos sugeneruotas įvertinimas gali būti palyginamas
 su žmogaus vertintojo suteiktu įvertinimu (y), siekiant
 nustatyti sistemos tikslumą.
-test
