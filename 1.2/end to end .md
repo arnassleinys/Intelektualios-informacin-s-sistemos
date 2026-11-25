@@ -66,3 +66,10 @@ Kuriama dirbtiniu intelektu paremta automatinio žodinių atsakymų vertinimo si
 ## Sistemos tikslumo vertinimas
 
 Sistemos prognozuojami įvertinimai (ŷ) palyginami su žmogaus vertintojo suteiktais įvertinimais (y), siekiant nustatyti kuriamos sistemos tikslumą ir patikimumą.
+
+
+<br><br>
+
+# Preliminarus proceso modelis
+
+![Proceso modelis](mermaid-diagram.png)
