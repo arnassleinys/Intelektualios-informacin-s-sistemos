@@ -33,3 +33,33 @@ analizę, prognozuoja atsakymo įvertinimą (y).
 Sistemos sugeneruotas įvertinimas gali būti palyginamas
 su žmogaus vertintojo suteiktu įvertinimu (y), siekiant
 nustatyti sistemos tikslumą.
+
+
+# Projekto aprašymas kaip vientiso sprendimo (End-to-End)
+
+Kuriama dirbtiniu intelektu paremta automatinio žodinių atsakymų vertinimo sistema apima visą duomenų apdorojimo procesą – nuo žodinio atsakymo garso įrašo pateikimo iki galutinio atsakymo įvertinimo ir grįžtamojo ryšio generavimo.
+
+## Sistemos veikimo etapai
+
+1. Įvesties duomenų surinkimas – pateikiamas žodinio atsakymo garso įrašas, klausimas ir etaloninis atsakymas.
+
+2. Automatinis kalbos atpažinimas (ASR) – naudojant „Whisper“ modelį, garso įrašas konvertuojamas į tekstą.
+
+3. Teksto reprezentacija – naudojant BERT arba SBERT modelį, tekstas paverčiamas skaitine reprezentacija.
+
+4. Garso charakteristikų analizė – analizuojamas kalbėjimo tempas, pauzių dažnis, trukmė ir kitos kalbėjimo charakteristikos.
+
+5. Automatinis atsakymo vertinimas pagal penkis kriterijus:
+   - Semantika.
+   - Terminologija.
+   - Argumentacija.
+   - Kalbėjimo charakteristikos.
+   - Autentiškumas.
+
+6. Vertinimo rezultatų apibendrinimas – sujungiami atskirų vertinimo kriterijų rezultatai.
+
+7. Galutinio įvertinimo ir grįžtamojo ryšio pateikimas.
+
+## Sistemos tikslumo vertinimas
+
+Sistemos prognozuojami įvertinimai (ŷ) palyginami su žmogaus vertintojo suteiktais įvertinimais (y), siekiant nustatyti kuriamos sistemos tikslumą ir patikimumą.
