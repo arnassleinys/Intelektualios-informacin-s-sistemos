@@ -1,5 +1,5 @@
 
-# Duomenų rinkinio aprašymas
+# 1.2 Duomenų rinkinio aprašymas
 
 Magistrinio darbo tikslas – sukurti dirbtiniu intelektu
 paremtą automatinio žodinių atsakymų vertinimo sistemą.
